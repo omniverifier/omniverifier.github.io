@@ -167,8 +167,8 @@ body {
 
 .top-left-logo {
   position: fixed;
-  top: 6px;
-  left: 6px;
+  top: 8px;
+  left: 8px;
   z-index: 1000;          /* 确保浮在内容上面 */
   display: inline-block;
 }
