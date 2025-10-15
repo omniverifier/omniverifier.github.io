@@ -160,7 +160,7 @@ body {
 
 /* 自定义标题样式 - 尺寸介于 is-3 和 is-2 之间，并加粗 */
 .publication-subtitle.custom-size {
-  font-size: 2.25rem;  /* is-3 是 2rem, is-2 是 2.5rem，所以用 2.25rem */
+  font-size: 5rem;  /* is-3 是 2rem, is-2 是 2.5rem，所以用 2.25rem */
   font-weight: 700;    /* 加粗 */
   font-family: 'Google Sans', sans-serif;
 }
