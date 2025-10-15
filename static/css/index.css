@@ -174,11 +174,11 @@ body {
 }
 
 .top-left-logo img {
-  height: 20px;           /* 控制显示尺寸 */
+  height: 26px;           /* 控制显示尺寸 */
   width: auto;
   border-radius: 4px;     /* 选配：圆角 */
   background: #fff;       /* 选配：白底防止遮挡 */
-  padding: 4px;           /* 选配：内边距 */
+  padding: 2px;           /* 选配：内边距 */
   box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* 选配：阴影 */
 }
 
