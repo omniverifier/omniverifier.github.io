@@ -167,25 +167,25 @@ body {
 
 .top-left-logo {
   position: fixed;
-  top: 10px;
-  left: 10px;
+  top: 12px;
+  left: 12px;
   z-index: 1000;          /* 确保浮在内容上面 */
   display: inline-block;
 }
 
 .top-left-logo img {
-  height: 26px;           /* 控制显示尺寸 */
+  height: 36px;           /* 控制显示尺寸 */
   width: auto;
   border-radius: 4px;     /* 选配：圆角 */
   background: #fff;       /* 选配：白底防止遮挡 */
-  padding: 2px;           /* 选配：内边距 */
+  padding: 4px;           /* 选配：内边距 */
   box-shadow: 0 2px 8px rgba(0,0,0,0.15); /* 选配：阴影 */
 }
 
 /* 移动端稍微缩小 */
 @media (max-width: 768px) {
   .top-left-logo img {
-    height: 16px;
+    height: 28px;
     padding: 2px;
   }
 }
