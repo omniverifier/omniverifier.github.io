@@ -167,14 +167,14 @@ body {
 
 .top-left-logo {
   position: fixed;
-  top: 8px;
-  left: 8px;
+  top: 4px;
+  left: 4px;
   z-index: 1000;          /* 确保浮在内容上面 */
   display: inline-block;
 }
 
 .top-left-logo img {
-  height: 18px;           /* 控制显示尺寸 */
+  height: 20px;           /* 控制显示尺寸 */
   width: auto;
   border-radius: 4px;     /* 选配：圆角 */
   background: #fff;       /* 选配：白底防止遮挡 */
