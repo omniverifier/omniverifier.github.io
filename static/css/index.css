@@ -174,7 +174,7 @@ body {
 }
 
 .top-left-logo img {
-  height: 8px;           /* 控制显示尺寸 */
+  height: 14px;           /* 控制显示尺寸 */
   width: auto;
   border-radius: 4px;     /* 选配：圆角 */
   background: #fff;       /* 选配：白底防止遮挡 */
@@ -185,7 +185,7 @@ body {
 /* 移动端稍微缩小 */
 @media (max-width: 768px) {
   .top-left-logo img {
-    height: 8px;
+    height: 14px;
     padding: 2px;
   }
 }
