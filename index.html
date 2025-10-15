@@ -536,6 +536,470 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-full has-text-centered content">
+
+        <h2 class="title is-3" id="leaderboard_viverbench">Leaderboard on ViVerBench</h2>
+        <div class="content">
+          <p class="mt-3">Rule-based evaluation scores on <b>ViVerBench</b>. We report per-task performance and the <b><u>Overall</u></b> score.</p>
+
+          <table class="js-sort-table" id="viverbench-results">
+            <tr>
+              <td class="js-sort-number"><strong>#</strong></td>
+              <td class="js-sort-number"><strong>Model</strong></td>
+              <td class="js-sort-number"><strong>Method</strong></td>
+              <td class="js-sort-number"><strong>Source</strong></td>
+              <td class="js-sort-number"><strong>Date</strong></td>
+              <td class="js-sort-number"><strong><u>Overall</u></strong></td>
+
+              <td class="js-sort-number"><strong>CE-Obj</strong></td>
+              <td class="js-sort-number"><strong>CE-Attr</strong></td>
+              <td class="js-sort-number"><strong>CE-AbsP</strong></td>
+
+              <td class="js-sort-number"><strong>OR-Spat</strong></td>
+              <td class="js-sort-number"><strong>OR-NSpt</strong></td>
+
+              <td class="js-sort-number"><strong>WD-SPhy</strong></td>
+              <td class="js-sort-number"><strong>WD-DPhy</strong></td>
+
+              <td class="js-sort-number"><strong>IA-BBox</strong></td>
+              <td class="js-sort-number"><strong>IA-Point</strong></td>
+              <td class="js-sort-number"><strong>IA-Count</strong></td>
+
+              <td class="js-sort-number"><strong>SVE-Maze</strong></td>
+              <td class="js-sort-number"><strong>SVE-FLake</strong></td>
+              <td class="js-sort-number"><strong>SVE-Robot</strong></td>
+              <td class="js-sort-number"><strong>SVE-GUI</strong></td>
+
+              <td class="js-sort-number"><strong>STEM-Chart</strong></td>
+              <td class="js-sort-number"><strong>STEM-LaTeX</strong></td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td><b class="best-score-text">Gemini 2.5 Pro 🥇</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b class="best-score-text">0.745</b></td>
+
+              <td>0.763</td>
+              <td>0.750</td>
+              <td>0.856</td>
+
+              <td>0.875</td>
+              <td>0.761</td>
+
+              <td>0.746</td>
+              <td>0.532</td>
+
+              <td>0.875</td>
+              <td>0.863</td>
+              <td>0.698</td>
+
+              <td>0.580</td>
+              <td>0.804</td>
+              <td>0.563</td>
+              <td>0.912</td>
+
+              <td>0.540</td>
+              <td>0.799</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td><b class="best-score-text">GPT-5 🥈</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b class="best-score-text">0.744</b></td>
+
+              <td>0.696</td>
+              <td>0.737</td>
+              <td>0.849</td>
+
+              <td>0.725</td>
+              <td>0.746</td>
+
+              <td>0.775</td>
+              <td>0.668</td>
+
+              <td>0.831</td>
+              <td>0.885</td>
+              <td>0.659</td>
+
+              <td>0.507</td>
+              <td>0.743</td>
+              <td>0.589</td>
+              <td>0.856</td>
+
+              <td>0.760</td>
+              <td>0.876</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td><b class="best-score-text">OpenAI o3 🥉</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b class="best-score-text">0.735</b></td>
+
+              <td>0.723</td>
+              <td>0.728</td>
+              <td>0.801</td>
+
+              <td>0.713</td>
+              <td>0.754</td>
+
+              <td>0.729</td>
+              <td>0.682</td>
+
+              <td>0.802</td>
+              <td>0.885</td>
+              <td>0.643</td>
+
+              <td>0.517</td>
+              <td>0.671</td>
+              <td>0.627</td>
+              <td>0.875</td>
+
+              <td>0.732</td>
+              <td>0.887</td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td><b>Seed 1.5-VL</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.731</b></td>
+
+              <td>0.737</td>
+              <td>0.763</td>
+              <td>0.651</td>
+
+              <td>0.779</td>
+              <td>0.851</td>
+
+              <td>0.588</td>
+              <td>0.575</td>
+
+              <td>0.903</td>
+              <td>0.870</td>
+              <td>0.610</td>
+
+              <td>0.527</td>
+              <td>0.718</td>
+              <td>0.671</td>
+              <td>0.833</td>
+
+              <td>0.720</td>
+              <td>0.907</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td><b>OpenAI o4-mini</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.727</b></td>
+
+              <td>0.745</td>
+              <td>0.746</td>
+              <td>0.781</td>
+
+              <td>0.763</td>
+              <td>0.754</td>
+
+              <td>0.646</td>
+              <td>0.654</td>
+
+              <td>0.843</td>
+              <td>0.819</td>
+              <td>0.604</td>
+
+              <td>0.560</td>
+              <td>0.650</td>
+              <td>0.658</td>
+              <td>0.833</td>
+
+              <td>0.700</td>
+              <td>0.876</td>
+            </tr>
+
+            <tr>
+              <td>6</td>
+              <td><b>OpenAI o1</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.715</b></td>
+
+              <td>0.647</td>
+              <td>0.754</td>
+              <td>0.760</td>
+
+              <td>0.704</td>
+              <td>0.769</td>
+
+              <td>0.675</td>
+              <td>0.671</td>
+
+              <td>0.758</td>
+              <td>0.826</td>
+              <td>0.626</td>
+
+              <td>0.587</td>
+              <td>0.646</td>
+              <td>0.601</td>
+              <td>0.764</td>
+
+              <td>0.728</td>
+              <td>0.902</td>
+            </tr>
+
+            <tr>
+              <td>7</td>
+              <td><b>InternVL3.5 A28B</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.671</b></td>
+
+              <td>0.688</td>
+              <td>0.737</td>
+              <td>0.637</td>
+
+              <td>0.742</td>
+              <td>0.799</td>
+
+              <td>0.592</td>
+              <td>0.500</td>
+
+              <td>0.847</td>
+              <td>0.796</td>
+              <td>0.527</td>
+
+              <td>0.503</td>
+              <td>0.539</td>
+              <td>0.519</td>
+              <td>0.796</td>
+
+              <td>0.640</td>
+              <td>0.881</td>
+            </tr>
+
+            <tr>
+              <td>8</td>
+              <td><b>Qwen 2.5-VL 72B</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.661</b></td>
+
+              <td>0.696</td>
+              <td>0.642</td>
+              <td>0.678</td>
+
+              <td>0.550</td>
+              <td>0.813</td>
+
+              <td>0.600</td>
+              <td>0.507</td>
+
+              <td>0.839</td>
+              <td>0.744</td>
+              <td>0.615</td>
+
+              <td>0.517</td>
+              <td>0.507</td>
+              <td>0.513</td>
+              <td>0.796</td>
+
+              <td>0.628</td>
+              <td>0.922</td>
+            </tr>
+
+            <tr>
+              <td>9</td>
+              <td><b>OmniVerifier 7B (Ours)</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="https://github.com/Cominclip/OmniVerifier" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.653</b></td>
+
+              <td>0.728</td>
+              <td>0.711</td>
+              <td>0.514</td>
+
+              <td>0.742</td>
+              <td>0.679</td>
+
+              <td>0.517</td>
+              <td>0.618</td>
+
+              <td>0.802</td>
+              <td>0.670</td>
+              <td>0.566</td>
+
+              <td>0.563</td>
+              <td>0.482</td>
+              <td>0.728</td>
+              <td>0.662</td>
+
+              <td>0.548</td>
+              <td>0.912</td>
+            </tr>
+
+            <tr>
+              <td>10</td>
+              <td><b>GPT-4o</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.645</b></td>
+
+              <td>0.540</td>
+              <td>0.608</td>
+              <td>0.671</td>
+
+              <td>0.538</td>
+              <td>0.731</td>
+
+              <td>0.713</td>
+              <td>0.500</td>
+
+              <td>0.649</td>
+              <td>0.744</td>
+              <td>0.632</td>
+
+              <td>0.570</td>
+              <td>0.643</td>
+              <td>0.563</td>
+              <td>0.796</td>
+
+              <td>0.656</td>
+              <td>0.758</td>
+            </tr>
+
+            <tr>
+              <td>11</td>
+              <td><b>Qwen 2.5-VL 7B</b></td>
+              <td>LMM 🖼️</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.570</b></td>
+
+              <td>0.531</td>
+              <td>0.591</td>
+              <td>0.500</td>
+
+              <td>0.504</td>
+              <td>0.694</td>
+
+              <td>0.529</td>
+              <td>0.471</td>
+
+              <td>0.673</td>
+              <td>0.633</td>
+              <td>0.467</td>
+
+              <td>0.527</td>
+              <td>0.404</td>
+              <td>0.671</td>
+              <td>0.625</td>
+
+              <td>0.556</td>
+              <td>0.742</td>
+            </tr>
+
+            <tr>
+              <td>*</td>
+              <td><b>Human</b></td>
+              <td>Human 👤</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.932</b></td>
+
+              <td>0.938</td>
+              <td>0.940</td>
+              <td>0.932</td>
+
+              <td>0.988</td>
+              <td>0.955</td>
+
+              <td>0.929</td>
+              <td>0.818</td>
+
+              <td>0.961</td>
+              <td>0.966</td>
+              <td>0.918</td>
+
+              <td>0.997</td>
+              <td>1.000</td>
+              <td>1.000</td>
+              <td>0.935</td>
+
+              <td>0.928</td>
+              <td>0.706</td>
+            </tr>
+
+            <tr>
+              <td>*</td>
+              <td><b>Random</b></td>
+              <td>-</td>
+              <td><a href="#" class="ext-link" style="font-size: 16px;">Link</a></td>
+              <td>-</td>
+              <td><b>0.500</b></td>
+
+              <td>0.500</td>
+              <td>0.500</td>
+              <td>0.500</td>
+
+              <td>0.500</td>
+              <td>0.500</td>
+
+              <td>0.500</td>
+              <td>0.500</td>
+
+              <td>0.500</td>
+              <td>0.500</td>
+              <td>0.500</td>
+
+              <td>0.500</td>
+              <td>0.500</td>
+              <td>0.500</td>
+              <td>0.500</td>
+
+              <td>0.500</td>
+              <td>0.500</td>
+            </tr>
+          </table>
+
+          <br>
+          <b>Task groups:</b>
+          <b>CE:</b> Concept Existence, <b>OR:</b> Object Relation, <b>WD:</b> World Dynamics, <b>IA:</b> Image Annotation,
+          <b>SVE:</b> State Value Evaluation, <b>STEM:</b> STEM.
+          <br>
+          <b>Abbreviations:</b>
+          Obj.=Object, Attr.=Attribute, AbsP.=Abstract Patterns, Spat.=Spatial, NSpt.=Non-spatial,
+          SPhy.=Static Physics, DPhy.=Dynamic Physics, BBox=Bounding Box, FLake=Frozenlake.
+          <br><br>
+          <div>
+            <p>🚨 To submit your results to the leaderboard, please send your result JSONs to our contact email.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 
